@@ -1,0 +1,58 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: aqua;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header .main-menu {
+  width: 50%;
+}
+
+.header .main-menu a {
+  margin-right: 40px;
+}
+
+.main-picture {
+  background: url("/images/backgrounds/back1.jpg") center center/cover no-repeat;
+  width: 100%;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards-item {
+  width: 33.3%;
+}
+
+.cards-item-img img {
+  width: 50px;
+  height: 50px;
+}
+
+.recom-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
