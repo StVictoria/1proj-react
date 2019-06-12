@@ -1,5 +1,4 @@
 import React from 'react';
-import MainContentButton from './MainContentButton';
 
 class MainContent extends React.Component{
     render(){
@@ -7,10 +6,10 @@ class MainContent extends React.Component{
             <div className='main-picture'>
                 <div className='main-picture-cover'>
                     <h1>Ваш сайт - главный бизнес-инструмент</h1>
-                    <h2>Go To Top - Ваш быстрый старт продаж</h2>
-                    <MainContentButton/>
-                    <div>Arrow left (plus pseudo-elem)</div>
-                    <div>Arrow right (plus pseudo-elem)</div>
+                    <p style={{fontSize: '19px'}}>GO TO TOP - Ваш быстрый старт продаж</p>
+                    <div class='button'>О НАС</div>
+                    <div className='arrow-left'></div>
+                    <div className='arrow-right'></div>
                 </div>
             </div>
         )
